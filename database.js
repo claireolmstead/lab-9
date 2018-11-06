@@ -1,6 +1,4 @@
-
-
-r pgp = require('pg-promise')();
+var pgp = require('pg-promise')();
 
 const dbConfig = {
    host: 'localhost',
